@@ -11,7 +11,6 @@ parser.add_argument ('-i',
 args = parser.parse_args()
 
 if __name__ == '__main__':
-   print ("Ya-! Yattazo! Hatsudou shitazo!")
    for filename in os.listdir(args.input_dir):
       file = filename
       file = file.replace(".fasta", "")
