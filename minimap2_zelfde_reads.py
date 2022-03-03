@@ -30,7 +30,7 @@ Non_existent = args.out_dir
 if not os.path.exists(Non_existent):
    os.makedirs(Non_existent)
 
-#let's do this shit, shall we?
+#run
 if __name__ == '__main__':
    for filename in os.listdir(args.reference_dir):
       file = filename
