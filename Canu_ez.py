@@ -47,7 +47,6 @@ if not os.path.exists(Non_existent):
    os.makedirs(Non_existent)
 
 if __name__ == '__main__':
-   print ("Ya-! Yattazo! Hatsudou shitazo!")
    for filename in os.listdir(args.input_dir):
       file = filename
       file = file.replace(".fastq", "")
