@@ -32,7 +32,6 @@ if not os.path.exists(Non_existent):
 
 #let's do this shit, shall we?
 if __name__ == '__main__':
-   print ("Ya-! Yattazo! Hatsudou shitazo!")
    for filename in os.listdir(args.input_reads_dir):
       file = filename
       file = file.replace(".correctedReads.fasta", "")
